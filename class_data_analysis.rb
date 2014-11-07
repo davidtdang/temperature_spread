@@ -7,10 +7,6 @@ class ClassDataAnalysis
     @data
   end
 
-  def low
-    self.low
-  end
-
   def lowest_temperature
     data.map{|set| set.low}.min
   end
